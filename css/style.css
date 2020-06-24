@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Pagina de Inicio*/
+.galeria{
+    margin:5px;
+    position:relative;
+    height:auto;
+    float:right;
+    width:100%;
+
+}
+.galeria h1{
+    text-align:center;
+    font-family:Ubuntu-Regular;
+}
+.miniatura{
+    float: left;
+    width: 310px;
+    height: 180px;
+    margin-top:50px;
+    margin: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    box-shadow: 1px  1px 3px rgb(146, 146, 146)  ;
+
+}
+/*Casdastrar Filme*/
+.cadFilme{
+    width: 50%;
+    border: 1px solid rgb(190, 190, 190);
+    height: auto;
+    padding: 10px;
+    position: relative;
+    float: right;
+    margin: 100px 100px 200px 200px;
+    background-color: rgb(233, 233, 233);
+}
+/*Casdastrar usuario*/
+form{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 190);
+    height: auto;
+    padding: 10px;
+    position: relative;
+    margin: 100px 0px 200px 300px;
+    background-color: rgb(233, 233, 233);
+}
+/*botoes*/
+.btn{
+    width: 100%;
+    text-align: center;
+}
+.btn1 {
+    border: 1px solid rgb(43, 231, 43);
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+.btn1:hover{
+    background-color: rgb(43, 231, 43);
+    color: white;
+}
+.btn2 {
+    border: 1px solid rgb(235, 50, 17);
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+.btn2:hover{
+    background-color: rgb(255, 50, 17);
+    color: white;
+}
+/*logando usuario*/
+.usuario{
+    /*border: 1px solid black;*/
+    height: 700px;
+    margin-right:200px ;
+}
+.usuario .logar{
+    margin-top: 0px;
+    border-left: 1px solid black;
+    width: 100%;
+    height: 600px;
+    padding: 60px;
+    float: right;
+    background-color: rgb(233, 233, 233);
+}
+.valid{
+    text-align: center;
+}
+.valid a{
+    text-decoration: none;
+    color: black;
+
+}
+  /* Painel de usuario*/
+
+  .usuario_area{
+    width: 21%;
+    border-right: 1px solid black;
+   height:auto;
+   }
+   .avatar_image{
+       margin:0px;
+       background-image: url(imagens/back.jpg);
+       height:250px;
+       width:100%;
+       padding:10px;
+   }
+   .circulo{
+       margin:50px;
+       height: 150px;
+       width:60%;
+       border: 1px solid rgb(80, 255, 197);
+       border-radius:80px;
+       background-color: rgb(80, 255, 197);
+   }
+   
+   .login{
+       background-color: black;
+       height:700px;
+   }
+   .login li{
+       padding: 5px;
+       font-size:20px;
+   }
+   .login a{
+       color:white;
+   }
+   .login li:hover {
+       background-color:gray;
+   }
+   .rodape{
+       position:relative;
+       border:1px solid black;
+       background-color: black;
+       bottom:0px;
+   }
+   .rodape p {
+       color:white;
+       text-align:center;
+   }

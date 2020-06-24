@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.form-edit{
+    margin: 0px auto;
+    width: 60%;
+    border: 1px solid rgb(228, 234, 235);
+
+    padding: 20px;
+}
+
+.form-edit .form-area{
+    margin: 10px;
+    background-color: rgb(228, 234, 235);
+    padding: 10px;
+}
+.form-edit .form-area input{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+}
+header{
+    background-color: rgb(99, 99, 99);
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+/*excluir seccion*/
+p{
+    text-align:center;
+}
+
+.sucess{
+     border:1px solid green;
+     background-color:transparent;
+     border-radius:10px;
+     padding:10px;
+ }
+ .sucess:hover{
+     background-color:green;
+ }
+ .warning{
+     border:1px solid orange;
+     background-color:transparent;
+     border-radius:10px;
+     padding:10px;
+ }
+ .warning:hover{
+     background-color:orange;
+ }
+
+/*rodape formatação*/
+.rodape{
+    position:fixed;
+    border:1px solid black;
+    background-color: black;
+    bottom:0px;
+    width: 100%;
+}
+.rodape p {
+    color:white;
+    text-align:center;
+}
+.btn3{
+    border:1px solid rgb(69, 137, 216);
+    background-color: transparent;
+    border-radius: 10px;
+    padding:10px;
+    margin:5px auto;
+  }
+  .btn3:hover{
+      background-color:rgb(69, 137, 216) ;
+  }

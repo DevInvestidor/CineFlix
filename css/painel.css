@@ -1,0 +1,104 @@
+.usuario_area{
+    width: 21%;
+    border-right: 1px solid black;
+     height:auto;
+   }
+   .avatar_image{
+       margin:0px;
+       background-image: url(../image/back.jpg);
+       height:300px;
+       width:100%;
+       padding:10px;
+   }
+   .circulo{
+       margin:50px;
+       height: 170px;
+       width:70%;
+       border:none;
+       border-radius:80px;
+        background-image:url(../image/images.jpg);
+        background-position: center;
+   }
+   .avatar_imagem p{
+     color: white;
+   }
+   .login{
+       background-color: black;
+       height:700px;
+   }
+   .login li{
+        list-style-type:none;
+       padding: 5px;
+       font-size:20px;
+   }
+   .login a{
+       text-decoration: none;
+       color:white;
+   }
+   .login li:hover {
+       background-color:gray;
+   }
+   .conteudo{
+     float:right;
+     position: relative;
+     border:none;
+     width: 69%;
+     margin-top: -900px;
+     margin-right: 20px;
+     height: auto;
+   }
+   .rodape{
+       position:relative;
+       border:1px solid black;
+       background-color: black;
+       bottom:0px;
+   }
+   .rodape p {
+       color:white;
+       text-align:center;
+   }
+   .conteudo header{
+        background-color: rgb(221, 221, 221);
+        height:40px;
+        padding: 5px;
+        border-radius: 5px;
+        
+    }
+    a{
+      text-decoration:none;
+    }
+    .tabela_books{
+      width:100%;
+      padding: 10px;
+    }
+    .tabela_books th{
+        text-align:center;
+        padding:10px;
+        background-color: rgb(131, 131, 131);
+    }
+    .tabela_books td{
+      border: 1px solid black;
+      text-align:center;
+        padding:10px;
+        background-color: rgb(204, 204, 204);
+    }
+    .tabela_books tr td .btn3{
+    border:1px solid rgb(69, 137, 216);
+    background-color: transparent;
+    border-radius: 10px;
+    padding:10px;
+    margin:5px auto;
+  }
+    .tabela_books tr td .btn3:hover{
+    background-color: rgb(69, 137, 216);
+    }
+    .tabela_books tr td .btn4{
+    border:1px solid red;
+    background-color: transparent;
+    border-radius: 10px;
+    margin:0px;
+    padding:10px;
+  }
+    .tabela_books tr td .btn4:hover{
+    background-color: red;
+    }

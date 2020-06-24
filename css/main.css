@@ -1,0 +1,67 @@
+.galeria{
+    margin:5px;
+    position:relative;
+    height:auto;
+    float:right;
+    width:100%;
+    
+}
+.galeria h1{
+    text-align:center;
+    font-family:Ubuntu-Regular;
+}
+.miniatura{
+    float: left;
+    width: 310px;
+    height: 180px;
+    margin-top:50px;
+    margin: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    box-shadow: 1px  1px 3px rgb(146, 146, 146)  ;
+    overflow:hidden;
+
+}
+.rodape{
+width: 100%;
+position: absolute;;
+border:1px solid black;
+background-color: black;
+bottom:0px;
+}
+.rodape p {
+color:white;
+text-align:center;
+}
+.miniatura img{
+width:100%;
+height:auto;
+}
+.interface {
+    border-radius: 10px;
+     border: 1px solid rgb(6, 110, 136);
+     width: 75%;
+     margin: 30px;
+     float: right;
+     background-color: rgb(6, 110, 136);
+     color: white;
+  }
+  h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .texto{
+    color: white;
+    margin-right: 40px;
+    margin: 20px;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+  }
+  h3{
+    margin-left: 20px;
+    color: #c2c2c2;
+    font-size: 25px;
+    width: 30%;
+    text-align: center;
+  }
